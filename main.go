@@ -8,8 +8,8 @@ import (
 func main() {
 	log.Printf("call main()")
 	r := setupRouter()
-	// Listen and Server in 0.0.0.0:9090
-	r.Run(":9090")
+	// Listen and Server in 0.0.0.0:8880
+	r.Run(":8880")
 }
 
 func setupRouter() *gin.Engine {
